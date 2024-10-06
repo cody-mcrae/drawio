@@ -4,7 +4,7 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="ZMyJOCPvntb0Wl6wRwUP-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZMyJOCPvntb0Wl6wRwUP-0">
+        <mxCell id="ZMyJOCPvntb0Wl6wRwUP-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZMyJOCPvntb0Wl6wRwUP-29">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="160" as="targetPoint" />
           </mxGeometry>
@@ -12,21 +12,19 @@
         <mxCell id="ZMyJOCPvntb0Wl6wRwUP-0" value="NSW substation demand" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="30" y="120" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZMyJOCPvntb0Wl6wRwUP-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZMyJOCPvntb0Wl6wRwUP-30">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="280" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="ZMyJOCPvntb0Wl6wRwUP-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZMyJOCPvntb0Wl6wRwUP-30" target="ZMyJOCPvntb0Wl6wRwUP-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZMyJOCPvntb0Wl6wRwUP-1" value="Hourly weather observations near substation areas" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="240" width="120" height="80" as="geometry" />
+          <mxGeometry x="30" y="240" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZMyJOCPvntb0Wl6wRwUP-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZMyJOCPvntb0Wl6wRwUP-2" target="ZMyJOCPvntb0Wl6wRwUP-11">
+        <mxCell id="ZMyJOCPvntb0Wl6wRwUP-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZMyJOCPvntb0Wl6wRwUP-31" target="ZMyJOCPvntb0Wl6wRwUP-11">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZMyJOCPvntb0Wl6wRwUP-2" value="AEMO pre-dispatch forecast demand and actual demand" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="360" width="120" height="80" as="geometry" />
+          <mxGeometry x="20" y="360" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZMyJOCPvntb0Wl6wRwUP-12" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZMyJOCPvntb0Wl6wRwUP-7" target="ZMyJOCPvntb0Wl6wRwUP-9">
           <mxGeometry relative="1" as="geometry">
@@ -60,25 +58,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZMyJOCPvntb0Wl6wRwUP-24" value="Merge" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="520" y="360" width="120" height="80" as="geometry" />
+          <mxGeometry x="520" y="250" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZMyJOCPvntb0Wl6wRwUP-27" value="Processed dataset" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="520" y="490" width="120" height="80" as="geometry" />
+          <mxGeometry x="520" y="360" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZMyJOCPvntb0Wl6wRwUP-29" value="Cleaning &amp;amp; preprocessing" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="170" y="120" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ZMyJOCPvntb0Wl6wRwUP-31" value="Cleaning &amp;amp; Preprocessing" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="170" y="360" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ZMyJOCPvntb0Wl6wRwUP-32" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZMyJOCPvntb0Wl6wRwUP-1" target="ZMyJOCPvntb0Wl6wRwUP-30">
+        <mxCell id="ZMyJOCPvntb0Wl6wRwUP-34" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZMyJOCPvntb0Wl6wRwUP-1" target="ZMyJOCPvntb0Wl6wRwUP-30">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="280" as="targetPoint" />
             <mxPoint x="140" y="280" as="sourcePoint" />
+            <mxPoint x="320" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZMyJOCPvntb0Wl6wRwUP-30" value="Cleaning &amp;amp; Preprocessing" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="170" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMyJOCPvntb0Wl6wRwUP-35" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZMyJOCPvntb0Wl6wRwUP-0" target="ZMyJOCPvntb0Wl6wRwUP-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="160" as="targetPoint" />
+            <mxPoint x="150" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZMyJOCPvntb0Wl6wRwUP-29" value="Cleaning &amp;amp; preprocessing" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMyJOCPvntb0Wl6wRwUP-36" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZMyJOCPvntb0Wl6wRwUP-2" target="ZMyJOCPvntb0Wl6wRwUP-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="400" as="targetPoint" />
+            <mxPoint x="150" y="400" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="170" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZMyJOCPvntb0Wl6wRwUP-31" value="Cleaning &amp;amp; Preprocessing" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="360" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
